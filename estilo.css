@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navBar{
+    display: flex;
+    background-color: aquamarine;
+    gap: 80%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navBar_menu{
+    display: flex;
+}
+
+p{
+    font-size: 100px;
+}
+.container_img{
+    position: relative;
+}
+.imagen1{
+    position: absolute;
+    width: 500px;
+}
+.saludo{
+    position: absolute;
+    /* top: 50px; */
+    color: aqua;
+    z-index: -1;
+}
+
+.container_img:hover .saludo{
+    z-index: 8;
+}
